@@ -39,5 +39,6 @@ spec:
             port:
               number: 80
   tls:
-  - hosts: imperial-ldtest2.gmtnl.com
-    secretName: tls-2048-imperial-ldtest2                
+  - hosts:
+    - imperial-ldtest2.gmtnl.com
+    secretName: tls-2048-imperial-ldtest2
